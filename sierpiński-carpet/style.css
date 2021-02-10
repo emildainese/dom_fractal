@@ -1,0 +1,29 @@
+.base-quad {
+  width: 800px;
+  height: 800px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: blueviolet;
+}
+
+.center-quad {
+  position: absolute;
+  background-color: white;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+}
+
+.top-quad,
+.top-right-quad,
+.top-left-quad,
+.bottom-quad,
+.bottom-left-quad,
+.bottom-right-quad,
+.center-left,
+.center-right,
+.quad {
+  position: absolute;
+  background-color: blueviolet;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+}
