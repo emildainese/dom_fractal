@@ -1,0 +1,29 @@
+#box {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: black; */
+}
+
+.base-quad {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blueviolet;
+}
+
+.quad-left {
+  position: absolute;
+  background-color: blueviolet;
+  transform-origin: bottom left;
+  transform: rotateZ(-30deg);
+}
+
+.quad-right {
+  position: absolute;
+  background-color: blueviolet;
+  transform-origin: bottom right;
+  transform: rotateZ(60deg);
+}
